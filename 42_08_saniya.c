@@ -33,9 +33,9 @@ int main() {
     int result = compare(arr1, arr2, size);
 
     if (result == 0) {
-        printf("The arrays are identical.\n");
+        printf("1");
     } else {
-        printf("The arrays are not identical.\n");
+        printf("0");
     }
 
     return 0;
